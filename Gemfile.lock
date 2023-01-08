@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ffi/ffi.git
+  revision: 53d9af234a54ab0a9521ca88b095debd10b49738
+  submodules: true
+  specs:
+    ffi (1.15.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -232,6 +239,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  ffi!
   importmap-rails
   jbuilder
   pg (~> 1.1)
