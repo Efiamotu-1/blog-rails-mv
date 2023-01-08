@@ -1,4 +1,4 @@
-require 'rails_helper'
+# require 'rails_helper'
 
 RSpec.describe Post, type: :model do
     post = Post.new(title: 'hello world', text: 'this is my first post', comments_counter: 1, likes_counter: 1)
