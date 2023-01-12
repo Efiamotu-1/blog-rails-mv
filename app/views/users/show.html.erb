@@ -1,5 +1,23 @@
-<h1>User#index</h1>
-<h2>Show Each users: </h2>
 
-<h2><%= @user.name %>,      Number of posts:  <%= @user.posts_counter %></h2>
-<h3>Bio: <%= @user.bio %></h3>
+<%= render 'shared/user', user: @user%>
+
+<div class='user_bio' >
+  <b>Bio</b>
+  <div>
+    <p><%= @user.bio %></p>
+  </div>
+</div>
+
+
+<% @user.three_recent_posts.each_with_index do |post, index| %>
+  <%= render partial: "shared/post", locals: {post: post, index: index } %>  
+<% end %>
+
+<div class='user_button'>
+  <button>
+    <%= link_to 'See all posts', user_posts_path(@user) %>
+  </button>
+</div>
+
+<% if false %>
+<% end %>
