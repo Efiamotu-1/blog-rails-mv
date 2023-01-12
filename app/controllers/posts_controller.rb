@@ -18,11 +18,11 @@ class PostsController < ApplicationController
     @post.comments_counter = 0
     @post.likes_counter = 0
     if @post.save
-      flash[:success] = 'Post created successfully'
+      flash[:notice] = 'Post created successfully'
       redirect_to user_posts_path(current_user)
     else
       flash.now[:error] = "Error: Couldn't create post"
-      render :new
+      render :new, status: :unprocessable_entity
     end
   end
 
