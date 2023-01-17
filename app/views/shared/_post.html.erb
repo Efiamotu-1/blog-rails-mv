@@ -4,7 +4,7 @@
     Post #<%= index + 1 %>
 
   </div>
-  <p class='ps-title'><%= post.title %></p>
+  <p class='ps-title'><%= link_to post.title, user_post_path(@user, post) %></p>
   <p><%= post.text %></p>
   <div class="flex-clicks">
   <%= button_to 'click to like post', user_post_likes_path(@user, post), method: 'post' %>

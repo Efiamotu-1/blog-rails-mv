@@ -1,6 +1,7 @@
 <p style="color: green"><%= notice %></p>
 <%= render partial: "shared/user", locals: {user: @user } %>
 
+<h3>All posts for User #{@user.name}</h3>
 <% @posts.each_with_index do |post, i| %>
     <%= render 'shared/post', post: post, index: i%>
 
