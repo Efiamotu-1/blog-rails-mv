@@ -6,10 +6,13 @@
   <br/>
 </div>
 
+
 <!-- TABLE OF CONTENTS -->
 
 * Ruby version
 v-3
+
+
 # 📗 Table of Contents
 
 <details>
@@ -73,7 +76,10 @@ v-3
 
 ### Key Features <a name="key-features"></a>
 
-Note.- This project is in construction ! 
+- create models for posts, users, comments and likes
+- Set up associations between models
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +128,17 @@ To run the project, execute the following command:
 |------|--------|----------|
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- validations and model specs
+- vadding controllers
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
