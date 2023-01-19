@@ -8,9 +8,8 @@
 
 <!-- TABLE OF CONTENTS -->
 
-Ruby Version
-v3.1.2
-
+* Ruby version
+v-3
 # 📗 Table of Contents
 
 <details>
