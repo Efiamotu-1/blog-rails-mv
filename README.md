@@ -6,7 +6,9 @@
   <br/>
 </div>
 
+
 <!-- TABLE OF CONTENTS -->
+
 
 # 📗 Table of Contents
 
@@ -71,7 +73,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-Note.- This project is in construction ! 
+- add validations
+- Set up rspec for testing
+- add tests for models
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,6 +126,17 @@ To run the project, execute the following command:
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- adding controllers
+- adding controllers specs
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -150,8 +166,7 @@ If you like this project. Don't forget to give it a ⭐️
 
 - A big thanks to [@microverseinc](https://github.com/microverseinc) for the project idea, guidance and inspiration.
 
-* Ruby version
-v-3
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ  -->
 
