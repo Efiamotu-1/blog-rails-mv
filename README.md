@@ -9,10 +9,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-* Ruby version
-v-3
-
-
 # 📗 Table of Contents
 
 <details>
@@ -76,9 +72,8 @@ v-3
 
 ### Key Features <a name="key-features"></a>
 
-- add database migration
-- reference foreign keys from other tables
-- build schema.rb
+- create models for posts, users, comments and likes
+- Set up associations between models
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,8 +128,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- processing data models
+
 - validations and model specs
+- vadding controllers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
