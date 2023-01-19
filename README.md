@@ -9,7 +9,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-
 # 📗 Table of Contents
 
 <details>
@@ -77,7 +76,6 @@
 - Set up associations between models
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -130,9 +128,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
+
 - validations and model specs
 - vadding controllers
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
