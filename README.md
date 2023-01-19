@@ -8,6 +8,9 @@
 
 <!-- TABLE OF CONTENTS -->
 
+Ruby Version
+v3.1.2
+
 # 📗 Table of Contents
 
 <details>
