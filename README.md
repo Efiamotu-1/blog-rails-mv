@@ -73,9 +73,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- add validations
-- Set up rspec for testing
-- add tests for models
+- add routes
+- add actions for controller
+- add views for each controller
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,8 +130,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- adding controllers
-- adding controllers specs
+- add controllers specs
+- add views
+- add forms
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
