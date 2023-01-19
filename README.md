@@ -150,7 +150,8 @@ If you like this project. Don't forget to give it a ⭐️
 
 - A big thanks to [@microverseinc](https://github.com/microverseinc) for the project idea, guidance and inspiration.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Ruby version
+v-3
 
 <!-- FAQ  -->
 
