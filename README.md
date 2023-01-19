@@ -9,9 +9,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-* Ruby version
-v-3
-
 
 # 📗 Table of Contents
 
