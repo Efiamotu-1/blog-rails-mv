@@ -126,6 +126,16 @@ To run the project, execute the following command:
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- processing data models
+- validations and model specs
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 
