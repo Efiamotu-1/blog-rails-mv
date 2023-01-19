@@ -76,7 +76,10 @@ v-3
 
 ### Key Features <a name="key-features"></a>
 
-Note.- This project is in construction ! 
+- add database migration
+- reference foreign keys from other tables
+- build schema.rb
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
