@@ -1,13 +1,14 @@
 <div class="post_header">
 
-  <div class="ps-name">
+ <div class="ps-name">
     Post #<%= index + 1 %>
+  </div> 
 
-  </div>
   <p class='ps-title'><%= post.title %></p>
   <p><%= post.text %></p>
   <div class="flex-clicks">
   <%= button_to 'click to like post', user_post_likes_path(@user, post), method: 'post' %>
+  </div>
   <div class="ps-counters1">
     Comments: <%= post.comments_counter || 0 %>, Likes: <%= post.likes_counter || 0 %>
   </div>
