@@ -1,3 +1,4 @@
+<p style="color: green"><%= notice %></p>
 <%= render partial: "shared/user", locals: {user: @user } %>
 
 <% @posts.each_with_index do |post, i| %>
@@ -15,7 +16,7 @@
 
 <div class='user_button'>
   <button>
-    Pagination
+    <%= link_to 'Pagination', user_post_path(@user, @posts[0]) %>
   </button>
 </div>
 

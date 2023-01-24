@@ -1,0 +1,14 @@
+  <div >
+    <h1>Add Comment</h1><br>
+  </div>
+
+<%= form_with model: @comment, url: user_post_comments_path, method: :post, local: true, scope: :comment do |form| %>
+
+  <div >
+    <%= form.label :text %><br>
+    <%= form.text_area :text, rows: 5 %>
+  </div>
+  <div >
+       <%= form.submit "Add Comment" %>
+  </div>
+<% end %>

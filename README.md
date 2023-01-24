@@ -1,12 +1,6 @@
 <a name="readme-top"></a>
 
 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-</div>
-
-
 <!-- TABLE OF CONTENTS -->
 
 
@@ -73,9 +67,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- add views for users
-- add views for posts made by users
-- display comments and likes
+- add forms to collect user inputs
+- allow users to make posts
+- allow user to add commnents 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,7 +124,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- add forms
+- integration specs
+- authentication
+- authorization
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
