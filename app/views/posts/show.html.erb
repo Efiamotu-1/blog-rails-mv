@@ -1,4 +1,22 @@
-<h1>Single post</h1>
-<h1>Post # <%= @post.id %> of  user # <%= @user.name %></h1>
-<h2><%= @post.title %>,      Number of posts:  <%= @post.comments_counter %></h2>
-<h3>Text: <%= @post.text %></h3>
+<div class="post_header">
+  <div class="post-show-header">
+    <div class="ps-name">
+      Post by <%= @user.name %>
+    </div>
+    <div class="ps-counters">
+      Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %>
+    </div>
+  </div>
+
+  <p><%= @post.title %></p>
+  <p><%= @post.text %></p>  
+</div>
+
+<div class='div-comments'>
+  <% @post.five_recent_comments.each do |comment| %>
+     <div class='comments'>
+        <span style="font-weight :bold font-size: 10px">Username <%= comment.user_id %>:</span> <%= comment.text %>
+      </div>
+  <% end %>        
+</div>
+        

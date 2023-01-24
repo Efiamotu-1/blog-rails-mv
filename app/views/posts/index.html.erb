@@ -1,6 +1,21 @@
-<h1>All posts for User #<%= @user.name %></h1>
+<%= render partial: "shared/user", locals: {user: @user } %>
 
 <% @posts.each_with_index do |post, i| %>
-    <h4><%= i+1 %>) Post Id: <%= post.id %>  Post Title: <%= post.title %> Comments Counter: <%= post.comments_counter %></h4>
-    <h3>Text: <%= post.text %></h3>
+    <%= render 'shared/post', post: post, index: i%>
+
+     <div class='div-comments'>
+    <% post.five_recent_comments.each_with_index do |comment, index| %>
+       <div class='comments'>
+          <span style="font-weight :bold font-size: 10px">Username <%= comment.user_id %>:</span> <%= comment.text %>
+        </div>
+    <% end %>        
+    </div>
+
 <% end %>
+
+<div class='user_button'>
+  <button>
+    Pagination
+  </button>
+</div>
+
