@@ -73,11 +73,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- add rspec gem
-- create rspec files for all controllers
-- correct response status
-- correct response body
-- it renders correct template
+- add views for users
+- add views for posts made by users
+- display comments and likes
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,7 +130,6 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- add views
 - add forms
 
 

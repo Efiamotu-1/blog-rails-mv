@@ -5,6 +5,6 @@
   <p class='ps-title'><%= post.title %></p>
   <p><%= post.text %></p>
   <div class="ps-counters1">
-    Comments: <%= post.comments_counter %>, Likes: <%= post.likes_counter %>
+    Comments: <%= post.comments_counter || 0 %>, Likes: <%= post.likes_counter || 0 %>
   </div>
 </div>
