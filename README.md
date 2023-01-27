@@ -67,9 +67,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- add forms to collect user inputs
-- allow users to make posts
-- allow user to add commnents 
+- add user authentication using devise
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,9 +122,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- integration specs
-- authentication
+
 - authorization
+- api
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
