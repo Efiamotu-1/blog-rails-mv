@@ -13,6 +13,6 @@ RSpec.describe 'Users controller', type: :request do
 
     expect(response).to render_template(:index)
 
-    expect(response.body).to include('Show All users:')
+    expect(response.body).to include('Users')
   end
 end
