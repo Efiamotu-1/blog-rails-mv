@@ -118,6 +118,10 @@ html {
 .comments {
   font-size: 12px;
   margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .15rem
 }
 
 .post_header {
