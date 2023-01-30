@@ -118,7 +118,11 @@ To run the project, execute the following command:
 | 👤 Name | Github | LinkedIn |
 |------|--------|----------|
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+| 👤 Name | Github | LinkedIn |
+|------|--------|----------|
+|Josué David Benavides Salinas|[@jdbs9514](https://github.com/jdbs9514)|[Josué David Benavides Salinas](https://www.linkedin.com/in/macoin/)|
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
