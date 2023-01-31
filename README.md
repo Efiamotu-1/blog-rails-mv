@@ -113,14 +113,9 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-### 👤 **Author**
-
 | 👤 Name | Github | LinkedIn |
 |------|--------|----------|
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
-
-| 👤 Name | Github | LinkedIn |
-|------|--------|----------|
 |Josué David Benavides Salinas|[@jdbs9514](https://github.com/jdbs9514)|[Josué David Benavides Salinas](https://www.linkedin.com/in/macoin/)|
 
 
