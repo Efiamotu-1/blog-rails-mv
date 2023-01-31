@@ -6,9 +6,6 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
                         posts_counter: 0)
     @post = Post.create(user: @user, title: 'Welcome', text: 'this is the first test post', likes_counter: 0,
                         comments_counter: 0)
-    # @post2 = Post.create(user: @user, title: 'Welcome home', text: 'this is the second test post', likes_counter: 0, comments_counter: 0)
-    # @post3 = Post.create(user: @user, title: 'Welcome here', text: 'this is the third test post', likes_counter: 0, comments_counter: 0)
-
     5.times { Comment.create(text: 'Nice post!!', user_id: @user.id, post_id: @post.id) }
     visit user_posts_path(@user.id)
   end
