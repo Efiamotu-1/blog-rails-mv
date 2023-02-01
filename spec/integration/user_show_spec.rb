@@ -1,6 +1,9 @@
+require 'rails_helper'
+
 RSpec.describe 'User Show Page (Assert)', type: :feature do
   before(:each) do
-    @user = User.create(name: 'John', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Physics Teacher',
+    @user = User.create(name: 'John', photo: 'https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png',
+                        bio: 'Physics Teacher',
                         posts_counter: 0)
     @post1 = Post.create(user: @user, title: 'Welcome', text: 'this is the first test post', likes_counter: 0,
                          comments_counter: 0)
@@ -15,6 +18,10 @@ RSpec.describe 'User Show Page (Assert)', type: :feature do
     scenario 'renders the correct users name and bio' do
       expect(page).to have_content(@user.name)
       expect(page).to have_content(@user.bio)
+    end
+
+    scenario 'shows the proper user photo' do
+      expect(page.body).to include('https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png')
     end
 
     scenario 'renders the users number of posts' do

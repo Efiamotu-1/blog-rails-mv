@@ -2,9 +2,9 @@ require 'rails_helper'
 
 RSpec.describe 'User Index Asserts', type: :system do
   before :each do
-    @user1 = User.create(name: 'Chris stapleton', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+    @user1 = User.create(name: 'Chris stapleton', photo: 'https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png',
                          bio: 'I am a Country musician', posts_counter: 6)
-    @user2 = User.create(name: 'Mylie cyrus', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+    @user2 = User.create(name: 'Mylie cyrus', photo: 'https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png',
                          bio: 'I am a pop artiste', posts_counter: 9)
   end
 
@@ -30,7 +30,7 @@ end
 RSpec.describe 'User Index Redirects', type: :system do
   describe 'Index Page' do
     before :each do
-      @current_user = User.create(name: 'Habeeb Efiamotu', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
+      @current_user = User.create(name: 'Habeeb Efiamotu', photo: 'https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png',
                                   bio: 'I am a software developer', posts_counter: 2)
     end
 

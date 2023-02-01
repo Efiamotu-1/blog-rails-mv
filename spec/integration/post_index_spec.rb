@@ -6,9 +6,6 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
                         posts_counter: 0)
     @post = Post.create(user: @user, title: 'Welcome', text: 'this is the first test post', likes_counter: 0,
                         comments_counter: 0)
-    # @post2 = Post.create(user: @user, title: 'Welcome home', text: 'this is the second test post', likes_counter: 0, comments_counter: 0)
-    # @post3 = Post.create(user: @user, title: 'Welcome here', text: 'this is the third test post', likes_counter: 0, comments_counter: 0)
-
     5.times { Comment.create(text: 'Nice post!!', user_id: @user.id, post_id: @post.id) }
     visit user_posts_path(@user.id)
   end
@@ -16,6 +13,10 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
   describe 'Post Index' do
     scenario "shows the user's username" do
       expect(page).to have_content(@user.name)
+    end
+
+    scenario 'shows the proper user photo' do
+      expect(page.body).to include('https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png')
     end
 
     scenario 'displays post text' do
@@ -40,6 +41,11 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
 
     scenario 'display the how many Likes' do
       expect(page).to have_content('Likes: 0')
+    end
+
+    scenario 'redirect to post show page when a post is clicked' do
+      click_link(@post.title)
+      expect(current_path) == (user_post_path(@user, @post))
     end
   end
 end
