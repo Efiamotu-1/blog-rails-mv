@@ -15,6 +15,10 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
       expect(page).to have_content(@user.name)
     end
 
+    scenario 'shows the proper user photo' do
+      expect(page.body).to include('https://icons.iconarchive.com/icons/iconsmind/outline/512/User-icon.png')
+    end
+
     scenario 'displays post text' do
       expect(page).to have_content('this is the first test post')
     end
@@ -37,6 +41,11 @@ RSpec.describe 'Post Index Test (Assert)', type: :feature do
 
     scenario 'display the how many Likes' do
       expect(page).to have_content('Likes: 0')
+    end
+
+    scenario 'redirect to post show page when a post is clicked' do
+      click_link(@post.title)
+      expect(current_path) == (user_post_path(@user, @post))
     end
   end
 end
