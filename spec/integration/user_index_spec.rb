@@ -21,7 +21,6 @@ RSpec.describe 'User Index Asserts', type: :system do
     expect(page).to have_content(@user2.name)
   end
 
-
   scenario 'renders the user post count' do
     visit users_path
     expect(page).to have_content("Number of posts: #{@user2.posts_counter}")
