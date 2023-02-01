@@ -121,7 +121,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: .15rem
+  gap: .15rem;
 }
 
 .post_header {
