@@ -105,18 +105,20 @@ Install this project with the steps below:
 
 To run the project, execute the following command:
 
-- Run `rails s` to start a development server.
+
+- Run `rails db:create` to create a new database.
+- Run `rails db:migrate` to migrate the db and build the schema.
+- Run `rails s` to start the development server.
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-### 👤 **Author**
-
 | 👤 Name | Github | LinkedIn |
 |------|--------|----------|
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+|Josué David Benavides Salinas|[@jdbs9514](https://github.com/jdbs9514)|[Josué David Benavides Salinas](https://www.linkedin.com/in/macoin/)|
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>

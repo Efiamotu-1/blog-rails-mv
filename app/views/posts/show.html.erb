@@ -14,6 +14,9 @@
 
   <p><%= @post.title %></p>
   <p><%= @post.text %></p>  
+  <div class="flex-clicks">
+  <%= button_to 'click to like post', user_post_likes_path(@user, @post), method: 'post' %>
+  </div>
 </div>
 
 <div class='div-comments'>
