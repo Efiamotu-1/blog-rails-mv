@@ -107,7 +107,7 @@ To run the project, execute the following command:
 
 
 - Run `rails db:create` to create a new database.
-- Run `rails db:migratae` to migrate the db and build the schema.
+- Run `rails db:migrate` to migrate the db and build the schema.
 - Run `rails s` to start the development server.
 
 <!-- AUTHORS -->
