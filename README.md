@@ -67,9 +67,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- add forms to collect user inputs
-- allow users to make posts
-- allow user to add commnents 
+- add user authentication using devise
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -107,7 +105,10 @@ Install this project with the steps below:
 
 To run the project, execute the following command:
 
-- Run `rails s` to start a development server.
+
+- Run `rails db:create` to create a new database.
+- Run `rails db:migratae` to migrate the db and build the schema.
+- Run `rails s` to start the development server.
 
 <!-- AUTHORS -->
 
@@ -123,9 +124,9 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- integration specs
-- authentication
+
 - authorization
+- api
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
