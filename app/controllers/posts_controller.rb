@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
+  load_and_authorize_resource
   def index
     @user = User.find(params[:user_id])
-    @posts = @user.posts.includes(:comments)
+    @posts = @user.posts
   end
 
   def new
@@ -29,6 +30,13 @@ class PostsController < ApplicationController
   def show
     @user = User.find(params[:user_id])
     @post = Post.find_by!(id: params[:id], user_id: params[:user_id])
+  end
+
+  def destroy
+    @user = User.find(params[:user_id])
+    @post = @user.posts.find(params[:id]).destroy
+    @user.decrement!(:posts_counter)
+    redirect_to user_path(@user)
   end
 
   private

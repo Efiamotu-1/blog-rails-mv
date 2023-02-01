@@ -107,7 +107,7 @@ To run the project, execute the following command:
 
 
 - Run `rails db:create` to create a new database.
-- Run `rails db:migratae` to migrate the db and build the schema.
+- Run `rails db:migrate` to migrate the db and build the schema.
 - Run `rails s` to start the development server.
 
 <!-- AUTHORS -->
@@ -118,8 +118,6 @@ To run the project, execute the following command:
 |------|--------|----------|
 |Habeeb Efiamotu Musa Owolewa|[@Efiamotu-1](https://github.com/Efiamotu-1)|[Habeeb Efiamotu Musa](https://www.linkedin.com/in/musa-habeeb/)|
 |Josué David Benavides Salinas|[@jdbs9514](https://github.com/jdbs9514)|[Josué David Benavides Salinas](https://www.linkedin.com/in/macoin/)|
-
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 

@@ -1,5 +1,4 @@
 <h2>Single post</h2>
-<p style="color: green"><%= notice %></p>
 <div class="post_header">
   <div class="post-show-header">
     <div class="ps-name">
@@ -8,6 +7,9 @@
     <div class="ps-counters">
       Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %>
     </div>
+    <% if can? :destroy, @post %>
+          <%= button_to "Delete Post", user_post_path(@user, @post), method: :delete %>
+    <% end %>
   </div>
 
   <p><%= @post.title %></p>
@@ -20,8 +22,14 @@
 <div class='div-comments'>
   <% @post.five_recent_comments.each do |comment| %>
      <div class='comments'>
-        <span style="font-weight :bold font-size: 10px">Username <%= comment.user_id %>:</span> <%= comment.text %>
+      <div>
+        <span style="font-weight :bold font-size: 10px"><%= comment.user.name %>:</span> <%= comment.text %>
+      </div>
+      <div>
+        <% if can? :destroy, comment %>
+            <%= button_to 'Remove Comment', user_post_comment_path(@post.user, @post, comment), class: 'comment-btn', :method => :delete %>
+        <% end %>
+      </div>
       </div>
   <% end %>        
 </div>
-        
